@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8001;
 const mongoose = require('mongoose');
-const barberRoutes = require('./routes/barberRoutes');
+const barberRoutes = require('./routes/authRoutes');
 const bodyParser = require('body-parser');
 
 // db-connection
